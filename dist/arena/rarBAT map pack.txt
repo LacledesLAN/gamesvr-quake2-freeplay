@@ -1,0 +1,8 @@
+Title=Rocket Arena 2 Map Pack install for Quake2
+Text=This will install all extra RA2 maps and
+Text=   arena.cfg ( UPDATED for new maps ) into your
+Text=C:\Quake2\arena   folder  ( default path )
+Text=click Install to begin
+Text=38 MB required for install
+Text=www.q2map.com
+Path=C:\Quake2\arena
