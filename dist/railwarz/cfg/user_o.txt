@@ -1,4 +1,0 @@
-greider@*.*.*.*	524287	imjosh
-joe@127.0.0.1	262144	imjoe
-john@235.45.678.9	262144	imjohn
-joseph@127.0.0.1	262143	joey
