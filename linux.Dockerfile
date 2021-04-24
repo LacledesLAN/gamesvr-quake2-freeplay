@@ -29,7 +29,8 @@ COPY --chown=Quake2:root /dist/linux /app
 
 # UPDATE USERNAME & ensure permissions
 RUN usermod -l Quake2Freeplay Quake2 &&`
-    chmod +x /app/ll-tests/*.sh
+    chmod -R 666 /app &&`
+    chmod +x /app/ll-tests/*.sh && chmod +x /app/q2pro_server_x64 && chmod +x /app/quake2;
 
 USER Quake2Freeplay
 

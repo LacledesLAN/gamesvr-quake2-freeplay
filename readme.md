@@ -2,7 +2,7 @@
 
 ![thumb-gamesvr-quake2-freeplay](https://raw.githubusercontent.com/LacledesLAN/gamesvr-quake2-freeplay/main/.misc/thumb-gamesvr-quake2-freeplay.png "thumb-gamesvr-quake2-freeplay")
 
-This repository is maintained by [Laclede's LAN](https://lacledeslan.com). Its contents are heavily tailored and tweaked for use at our charity LAN-Parties. For third-parties we recommend using this repo only as a reference example and then building your own using [gamesvr-csgo](https://github.com/LacledesLAN/gamesvr-csgo) as the base image for your customized server.
+This repository is maintained by [Laclede's LAN](https://lacledeslan.com). Its contents are heavily tailored and tweaked for use at our charity LAN-Parties. For third-parties we recommend using this repo only as a reference example and then building your own using [gamesvr-quake2](https://github.com/LacledesLAN/gamesvr-quake2) as the base image for your customized server.
 
 ## Linux Container
 
