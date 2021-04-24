@@ -23,31 +23,31 @@ docker run --rm lacledeslan/gamesvr-quake2-freeplay ./ll-tests/gamesvr-quake2-fr
 ### Run A Q2Pro Server (Custom Maps)
 
 ``` shell
-docker run -it --rm --net=host lacledeslan/gamesvr-quake2 ./q2pro_server_x64 +set dedicated 1 +map q2dm1 +exec server.cfg +rcon_password password +exec custommaps.cfg;
+docker run -it --rm --net=host lacledeslan/gamesvr-quake2-freeplay ./q2pro_server_x64 +set dedicated 1 +map q2dm1 +exec server.cfg +rcon_password password +exec custommaps.cfg;
 ```
 
 ### Run A Q2Pro Server (Stock Maps)
 
 ``` shell
-docker run -it --rm --net=host lacledeslan/gamesvr-quake2 ./q2pro_server_x64 +set dedicated 1 +map q2dm1 +exec server.cfg +rcon_password password +exec stockmaps.cfg;
+docker run -it --rm --net=host lacledeslan/gamesvr-quake2-freeplay ./q2pro_server_x64 +set dedicated 1 +map q2dm1 +exec server.cfg +rcon_password password +exec stockmaps.cfg;
 ```
 
 ### Run A Q2Pro Server - CTF Mod (Custom Maps)
 
 ``` shell
-docker run -it --rm --net=host lacledeslan/gamesvr-quake2 ./q2pro_server_x64 +set dedicated 1 +game ctf +map q2ctf1 +exec server.cfg +exec customplaylist.cfg
+docker run -it --rm --net=host lacledeslan/gamesvr-quake2-freeplay ./q2pro_server_x64 +set dedicated 1 +game ctf +map q2ctf1 +exec server.cfg +exec customplaylist.cfg
 ```
 
 ### Run A Q2Pro Server - CTF Mod (Stock Maps)
 
 ``` shell
-docker run -it --rm --net=host lacledeslan/gamesvr-quake2 ./q2pro_server_x64 +set dedicated 1 +game ctf +map q2ctf1 +exec server.cfg +exec stockplaylist.cfg
+docker run -it --rm --net=host lacledeslan/gamesvr-quake2-freeplay ./q2pro_server_x64 +set dedicated 1 +game ctf +map q2ctf1 +exec server.cfg +exec stockplaylist.cfg
 ```
 
 ### Run A Q2Pro Server - Rocket Arena Mod (Stock Maps)
 
 ``` shell
-docker run -it --rm --net=host lacledeslan/gamesvr-quake2 ./q2pro_server_x64 +set dedicated 1  +game arena +map ra2map1 +rcon_password password +exec server.cfg
+docker run -it --rm --net=host lacledeslan/gamesvr-quake2-freeplay ./q2pro_server_x64 +set dedicated 1  +game arena +map ra2map1 +rcon_password password +exec server.cfg
 ```
 
 ## Getting Started with Game Servers in Docker
