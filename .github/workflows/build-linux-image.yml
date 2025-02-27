@@ -18,7 +18,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Set up QEMU
-        uses: docker/setup-qemu-action@v3.4.0
+        uses: docker/setup-qemu-action@v3.5.0
       - name: Pull Latest lacledeslan/gamesvr-quake2
         run: docker pull lacledeslan/gamesvr-quake2
       - name: Build Linux Image
