@@ -22,7 +22,7 @@ jobs:
       - name: Pull Latest lacledeslan/gamesvr-quake2
         run: docker pull lacledeslan/gamesvr-quake2
       - name: Build Linux Image
-        uses: docker/build-push-action@v6.14.0
+        uses: docker/build-push-action@v6.15.0
         with:
           context: .
           file: ./linux.Dockerfile
